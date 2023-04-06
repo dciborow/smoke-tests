@@ -17,6 +17,7 @@ jobs:
       matrix:
         suite:
           - actions
+          - bicep
           - bundler
           - bundler-grouped
           - cargo
