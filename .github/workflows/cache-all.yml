@@ -19,6 +19,7 @@ jobs:
       matrix:
         suite:
           - { path: tests/smoke-actions.yaml, name: actions }
+          - { path: tests/smoke-bicep.yaml, name: bicep }
           - { path: tests/smoke-bundler.yaml, name: bundler }
           - { path: tests/smoke-bundler-grouped.yaml, name: bundler-grouped }
           - { path: tests/smoke-cargo.yaml, name: cargo }
